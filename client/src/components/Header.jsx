@@ -1,7 +1,9 @@
 // import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 function Header() {
+    
     return (
         <div className='bg-slate-200'>
             <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
@@ -16,7 +18,9 @@ function Header() {
                         <li>About</li>
                     </Link>
                     <Link to='/sign-in'>
-                        <li>Sign In</li>
+                       
+                            <li>Sign In</li>
+                        
                     </Link>
 
                 </ul>
